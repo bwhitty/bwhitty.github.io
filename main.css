@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+.splash {
+  background: url(images/background-1000x748px.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+
+  color: white;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.splash h3 {
+  color: rgba(255, 255, 255, .75);
+}
+
+.splash h1,
+.splash h3 {
+  margin: 0;
+}
+
+.social-list li {
+  display: inline-block;
+}
+
+.social-list img {
+  height: 60px;
+}
+
+.linkedin-icon {
+  margin-left: 10px;
+}
+
+.portrait {
+  border-radius: 125px;
+
+  height: 250px;
+  width: 250px;
+
+  margin: 20vh 0 0 0;
+}
